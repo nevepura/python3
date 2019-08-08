@@ -1,0 +1,5 @@
+print("hello")
+print("warudo")
+print("ciao' '' ' ' apostrofi")
+print('line 4: pipo " "  caio "')
+print('line5 aka another line')

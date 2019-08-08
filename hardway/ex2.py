@@ -1,0 +1,1 @@
+print("hi #friend. I am printing #asterisks here")

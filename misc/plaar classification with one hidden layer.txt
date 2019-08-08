@@ -1,0 +1,19 @@
+https://hub.coursera-apps.org/connect/nesucirhliawbbovjphews?forceRefresh=false&token=6WffXZigNJVNzvt4JbdY&path=%2Fnotebooks%2FWeek+3%2FPlanar+data+classification+with+one+hidden+layer%2FPlanar+data+classification+with+one+hidden+layer+v5.ipynb
+
+dZ2 = A2 -Y
+dW2 = (1/m)* np.multiply(dZ2, A1.T)
+db2 = (1/m)*np.sum(dZ2, axis = 1, keepdims = True)
+dZ1 = np.multiply(np.dot(W2.T, dZ2), derivata)
+dW1 = (1/m)*np.multiply(dZ1,X.T)
+db1 = 
+
+theta = theta - alfa(dJ/dtheta)
+
+---
+initialize_parameters(n_x, n_h, n_y):
+forward_propagation(X, parameters)
+compute_cost(A2, Y, parameters)
+backward_propagation(parameters, cache, X, Y)
+update_parameters(parameters, grads, learning_rate = 1.2)
+
+nn_model(X, Y, n_h, num_iterations = 10000, print_cost=False)
