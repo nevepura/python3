@@ -1,3 +1,6 @@
+# Fix your .srt subtitles file!
+No more overlap between subtitles: each line starts after the previous ends.
+
 # Purpose
 This script was created to have working .srt subtitles on Chrome extension Substitial.
 The extension seems to have troubles processing -srt subtitle that have multiple lines in the same time interval: the subs go out of timing.
