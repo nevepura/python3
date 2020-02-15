@@ -7,10 +7,11 @@ class Test:
 	def print_nome(self):
 		print(self.nome)
 
-
+# altering class variable 'classname'
 Test.classname = "no more test"
 print(Test.classname)
 
+# creating Test objects
 t1 = Test("paperolamo")
 print(t1.nome)
 t1.nome = "paperagno"
